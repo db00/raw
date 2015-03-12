@@ -10,10 +10,7 @@ adb shell
 
 git checkout
 git push origin master 
-git add --all 
-git commit --amend -m "More changes - now correct" 
-git pull  https://github.com/db00/rowsocket.git 
-git push -u origin master
+git add --all && git commit --amend -m "More changes - now correct" && git pull  https://github.com/db00/raw.git && git push -u origin master
 git clean -f
 
  */
